@@ -100,6 +100,7 @@ header a:hover {
   width: 174px;
   height: 52px;
   border: 0;
+  padding: 1rem;
 }
 /* main section styles start here */
 .popular-tour {
@@ -251,12 +252,99 @@ li {
   padding: 32px;
 }
 
-.best-price{
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-    width: 50%;
-    margin: 24px auto 0px auto;
-    height: 284px;
-    padding: 32px;
+.best-price {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 50%;
+  margin: 24px auto 0px auto;
+  height: 284px;
+  padding: 32px;
+}
+/* news latter section styles */
+.news-latter {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.latter {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 422px;
+  padding: 2.5rem;
+}
+.latter h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 1rem;
+}
+.latter p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.latter input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 393px;
+  height: 52px;
+  margin-top: 1rem;
+  border: #fff;
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+.subscribe {
+  width: 393px;
+  height: 52px;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+.subscribe:hover{
+    cursor: progress;
+}
+.news-banner {
+  position: relative;
+  /* border: 2px solid tomato; */
+  border-radius: 16px;
+  width: 672px;
+  height: 422px;
+}
+.save-up {
+  position: absolute;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  bottom: 13%;
+  left: 50%;
+}
+.save-up p {
+  /* transform: rotate(-19.628deg); */
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+.save-up h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
 }
