@@ -24,4 +24,8 @@
     .image{
         width: 100%;
     }
+    .tour-country{
+        display: flex;
+        flex-direction: column;
+    }
 }
