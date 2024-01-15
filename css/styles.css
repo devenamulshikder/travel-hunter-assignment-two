@@ -1,10 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Mulish';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
 }
-body{
-    max-width: 1200px;
-    margin: 0 auto;
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* nav section styles */
+.unique-travel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 52px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 40px;
+  cursor: pointer;
+}
+header a:hover{
+    color: #ff5400;
+}
+.home-color {
+  color: #ff5400;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.unique {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.travel {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+/* banner section styles */
+.banner-section {
+  background: url("..//Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+.banner-content {
+  text-align: center;
+}
+.explore {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  padding-top: 106px;
+  padding-bottom: 24px;
+}
+.banner-section p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-bottom: 48px;
+}
+.options {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.options input {
+  border-radius: 8px;
+  background: #fff;
+  width: 174px;
+  height: 52px;
+  border: 0;
 }
