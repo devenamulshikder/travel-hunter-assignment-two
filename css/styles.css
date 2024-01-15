@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Mulish";
 }
-body {
+.main-body {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -314,8 +314,8 @@ hr {
   font-size: 20px;
   font-weight: 800;
 }
-.subscribe:hover{
-    cursor: progress;
+.subscribe:hover {
+  cursor: progress;
 }
 .news-banner {
   position: relative;
@@ -347,4 +347,51 @@ hr {
   text-align: center;
   font-size: 32px;
   font-weight: 800;
+}
+/* footer section styles */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+}
+.logo-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+}
+.logo-footer .last-title {
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+.some-details {
+  text-align: center;
+  margin-top: 15px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.logo-footer .last-color {
+  color: #ff5400;
+  font-size: 32px;
+  font-weight: 800;
+}
+.last-icons {
+  font-size: 2rem;
+  margin-top: 33px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+hr {
+  width: 872px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 3.15rem;
+}
+#small {
+  text-align: center;
+  padding-bottom: 110px;
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
 }
