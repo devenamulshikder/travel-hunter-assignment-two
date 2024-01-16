@@ -110,7 +110,7 @@ header a:hover {
   bottom: 1rem;
   right: 1rem;
 }
-.find-btn input{
+.find-btn input {
   border-radius: 8px;
   background: #ff5400;
   width: 174px;
@@ -121,10 +121,10 @@ header a:hover {
   justify-items: center;
   justify-content: center;
 }
-.find-btn{
+.find-btn {
   position: relative;
 }
-.find-btn i{
+.find-btn i {
   position: absolute;
   left: 1rem;
   top: 1rem;
@@ -289,6 +289,13 @@ li {
   margin: 24px auto 0px auto;
   height: 284px;
   padding: 32px;
+}
+.same-margin {
+  margin-top: 1.4rem;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 1rem;
 }
 /* news latter section styles */
 .news-latter {
