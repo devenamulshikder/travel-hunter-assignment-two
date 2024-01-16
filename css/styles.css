@@ -102,6 +102,35 @@ header a:hover {
   border: 0;
   padding: 1rem;
 }
+.select-icon {
+  position: relative;
+}
+.select-icon i {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.find-btn input{
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  justify-items: center;
+  justify-content: center;
+}
+.find-btn{
+  position: relative;
+}
+.find-btn i{
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
 /* main section styles start here */
 .popular-tour {
   display: flex;
