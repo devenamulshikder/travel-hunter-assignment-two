@@ -271,6 +271,11 @@ li {
   padding: 32px;
   background: rgba(251, 181, 99, 0.05);
 }
+.chooses-us p{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
 .worlds {
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
@@ -300,8 +305,7 @@ li {
 .news-latter {
   display: flex;
   gap: 1.5rem;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 .latter {
   border-radius: 16px;
@@ -314,10 +318,6 @@ li {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
-}
-hr {
-  border: 1px solid rgba(19, 19, 24, 0.1);
-  margin-bottom: 1rem;
 }
 .latter p {
   color: #5a5a5d;
@@ -338,6 +338,16 @@ hr {
   font-weight: 400;
   padding: 20px;
 }
+.news-banner{
+  background: url('https://i.ibb.co/CbX1p7X/Rectangle-8-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  /* padding: 500px; */
+}
 .subscribe {
   width: 393px;
   height: 52px;
@@ -352,20 +362,14 @@ hr {
 .subscribe:hover {
   cursor: progress;
 }
-.news-banner {
-  position: relative;
-  border-radius: 16px;
-  width: 672px;
-  height: 422px;
-}
 .save-up {
-  position: absolute;
+  position: relative;
   width: 324px;
   height: 120px;
   transform: rotate(-19.628deg);
   border-radius: 16px;
   background: #ff5400;
-  bottom: 13%;
+  bottom: -55%;
   left: 50%;
 }
 .save-up p {
@@ -415,12 +419,6 @@ footer {
   margin-top: 33px;
   padding-bottom: 50px;
   text-align: center;
-}
-hr {
-  width: 872px;
-  height: 1px;
-  margin: 0 auto;
-  margin-top: 3.15rem;
 }
 #small {
   text-align: center;
