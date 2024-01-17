@@ -5,16 +5,16 @@
 }
 @media screen and (max-width:600px) {
     .nav-bar{
-        flex-direction: column;
+        /* flex-direction: column; */
         margin: 5px;
     }
-    header ul{
-        flex-direction: column;
-        gap: 5px;
+    header ul > li{
+        /* flex-direction: column; */
+        /* gap: 5px; */
+        display: none;
     }
-    .banner-section{
-        
-
+    #three-line{
+        display: inline;
     }
     .explore{
         padding-top: 5px;
@@ -116,12 +116,12 @@
         height: 100%;
       } */
       .save-up {
-        width: 60%;
+        width: 65%;
         height: 100px;
         bottom: 0;
         top: 60%;
         position: relative;
-        left: 37%;
+        left: 30%;
       }
       .save-up p {
         color: #fff;
